@@ -1,0 +1,7 @@
+# Ignore all in base dir 
+/*
+
+# Except these files/folders
+!nvim/
+!wezterm/
+!.gitignore
