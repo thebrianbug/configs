@@ -4,7 +4,6 @@ return {
     opts = {
       servers = {
         prismals = {},
-        svelte = {},
       },
     },
   },
@@ -12,7 +11,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = function(_, opts)
       if type(opts.ensure_installed) == "table" then
-        vim.list_extend(opts.ensure_installed, { "prisma", "svelte" })
+        vim.list_extend(opts.ensure_installed, { "prisma" })
       end
     end,
   },
